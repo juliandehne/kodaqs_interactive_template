@@ -1,0 +1,15 @@
+---
+title: "R Tutorial"
+format: html
+execute:
+    echo: true
+    eval: true
+server: shiny
+---
+
+```{r setup, include=FALSE}
+options(repos = c(CRAN = "https://cran.uni-goettingen.de/"))
+install.packages("rmarkdown")
+install.packages("learnr")
+library(learnr)
+```
