@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "interactiveR"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+execute:
+  enabled: true
+  echo: true
+  eval: true
+  warning: false
+  error: false
+  cache: false
+  r-path: "C:/Program Files/R/R-4.4.0/bin/x64/R"
+  python-path: "C:/ProgramData/anaconda3/envs/sem_rep_left-right/bin/python"
+  freeze: auto
+

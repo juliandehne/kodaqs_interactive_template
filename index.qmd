@@ -1,0 +1,12 @@
+---
+title: "interactiveR"
+---
+
+This is a Quarto website.
+
+```{=html}
+<iframe width="780" height="500" src="code_example.html" title="Webpage example"></iframe>
+```
+
+
+
